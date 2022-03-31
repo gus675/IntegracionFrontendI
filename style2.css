@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: space ;
+    font-family: 'Be Vietnam Pro', sans-serif;
+ 
+}
+
+/****************************************header*******************************************/
+
+header{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#bot-r{
+    margin-left: 55px;
+}
+
+a{  
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;   
+}
+
+p{
+    text-align: justify;
+}
+
+.lis-nav li{
+    display: inline;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 8px;
+    text-decoration: none;  
+}
+
+.li{
+    color: rgb(20, 20, 20);
+}
+/*******************************seccion principal "img grafico""***************************************/
+
+.sect-princ{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+#bot-seccion-princ{
+    margin-left: 0px;
+}
+
+.img-princ{
+    margin-top: 40px;
+    width: 50px;
+    
+}
+
+.box-seccion-princ{
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;   
+}
+
+button{
+    background: rgb(255, 110, 65);
+    border: none;
+    border-radius: 50px;
+    color:aliceblue;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 44px;
+    margin-top: 20px;
+    text-decoration: none;
+    top: 65px;
+    width: 140px;  
+}
+
+button ::before{
+    content: "";
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+
+button:hover::before{
+    top: -30px
+}
+
+/****************************************seccion manage*******************************************/
+
+#boton3{
+    background: rgb(255, 110, 65);
+    border-radius: 25px;
+    border: none;
+    color:aliceblue;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    height: 40px;
+    margin-left: -10px;
+    margin-top: -5px;
+    text-decoration: none;
+    width: 50px;  
+}
+
+#boton-blanco{
+    background: aliceblue;
+    border-radius: 50px;
+    border: none;
+    color:rgb(20, 20, 20);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 44px; 
+    top: 65px;
+    width: 140px;  
+}
+
+.boton-centrado{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+#bot-seccion-opinion{
+    margin-left: 600px;
+}
+
+header div{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 45px;
+    
+}
+
+.class-resp{
+    flex-wrap: wrap;
+}
+/****************************************seccion opinion*******************************************/
+
+.sect-medio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.box-seccion-manage{
+    align-items: flex-start;
+    font-size: large;
+    font-size: 18px;
+    height: 250px;
+    width: 500px;
+}
+
+.boton-flex{
+    align-items: center;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.tres-bot{
+    height: 450px;
+    width: 70vh;
+}
+
+.text-boton{
+    font-size: 16px;
+    text-align: left;
+}
+
+.div-boton{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.caja-boton{
+    align-items: center;
+    height: 0px;
+    width: 100%;
+}
+
+.caja-boton4{
+    display: block;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.caja-titulo{
+    display: block;
+    width: 90%;
+}
+.caja-texto{
+    margin-top: 5px;
+    width: 90%;
+    
+}
+.sect-div1{
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    width: 100%;
+
+ }
+ h2 {
+     font-size: 30px;
+ }
+
+
+#titulo-seccion-opinion{
+    height: 150px;
+}
+
+#secc-opinion.box-opinion{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    padding-bottom: 180px;
+}
+
+#secc-opinion h2{
+    text-align: center;
+}
+.box-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px 0px 45px;
+    
+   
+}
+
+.card {
+    background-color:rgb(248, 244, 244);
+    margin:0px 10px;
+    padding: 0px 28px 30px;
+    text-align: center;
+    width: 30%;
+}
+
+.card img{
+    position: relative;
+    top: -50px;
+}
+
+#secc-opinion.p{
+    color:#a1a0a3;
+}
+/****************************************seccion simplify*******************************************/
+ .simpli-boton{
+     align-items: center;background-color: rgb(255, 110, 65);
+     color: aliceblue;
+     display: flex;
+     height: 144px;
+     justify-content: space-between;
+     margin-top: 50px;
+     width: 100%;
+     padding: 90px;
+     
+     
+ }
+
+/****************************************footer*******************************************/
+ footer nav{
+     background-color: rgb(241, 225, 225);
+     background-color: black;
+     color:aliceblue;
+     cursor: pointer;
+     display: flex;
+     flex-wrap: wrap;
+     height: 200px;
+     justify-content: space-around;
+     padding: 40px 120px;
+}
+
+.enter{
+    border-radius: 18px;
+    border: 0;
+    color: aliceblue;
+    font-size: 11px;
+    height: 40px;
+    width: 215px;
+}
+.derechos{
+    background-color:black;
+    color: aliceblue;
+    font-size: 12px;
+    
+}
+
+/****************************************media/max-w:560px*******************************************/
+
+@media (max-width: 560px) {
+
+    #bot-seccion-opinion {
+        margin-left: 197px;
+    }
+    #bot-seccion-princ {
+        margin-left: 140px;
+    }
+    footer nav{
+        align-items: center; 
+        display: flex;
+        font-size: 13px;
+        flex-direction: column-reverse;
+        height: 280px; 
+        justify-content: center; 
+        padding: 15px;    
+    }
+
+    .ocultar-en-resp{
+        display: none;
+    }
+ 
+    .person{
+        flex-wrap: wrap;
+    }
+    .tres-bot{
+        align-items: center;
+    }
+    #ocultar-en-respons1{
+        display: none;
+    }
+    #ocultar-en-respons2{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+
+/****************************************media/max-w:411px*******************************************/
+
+@media (max-width: 411px) {
+    footer{
+        align-items: center;
+    }
+    .box-lista-menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #bot-seccion-opinion {
+        margin-left: 125px;
+    }
+
+    .div-boton {
+    display: block;
+    font-size: 15px;
+    margin-left: 5px;
+    width: 54vh;
+    }
+    
+    .ocultar-en-resp{
+        display: none;
+    }
+
+    .sect-princ{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .caja-sect-prin {
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
+    .div-manage{
+        font-size: 15px;
+        text-align: center;  
+    }
+
+    .img-bur{
+        width: 100%;
+    }
+
+    button{
+        margin-left: 0px
+    }
+
+    #ocultar-en-respons1{
+        display: none;
+    }
+
+    #ocultar-en-respons2{
+        display: none;
+    }
+
+    .tres-bot{
+        align-items: center;
+        height: 500px;
+    }
+
+    .simpli-boton{
+        display: block;
+        padding: 0px;
+    }
+
+    footer.nav{
+        flex-direction: column-reverse;
+        height: 450px;
+        font-size: 15;
+        padding: none;
+    }
+
+    #boton-blanco {
+        width: 100px;
+        height: 35px;
+        margin-left: 145px;
+        padding: 0;
+        margin-top: 45px;
+    }
+    .div-boton{
+        display: block;
+        font-size: 15px;
+    }
+    .box-seccion-manage{
+        height: 200px;
+    }
+
+}
+
